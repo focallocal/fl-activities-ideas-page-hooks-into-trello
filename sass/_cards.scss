@@ -1,0 +1,51 @@
+.cards-container {
+  margin: auto;
+
+  .col {
+    @extend .l6;
+    @extend .m6;
+
+    &:first-child {
+      //@extend .offset-l1;
+    }
+
+    &:nth-child(3) {
+      clear:both;
+    }
+  }
+}
+
+.flow-text {
+  font-size: 1em;
+}
+
+.card .card-content {
+  @extend .white-text;
+}
+
+.card {
+  //@extend .card;
+  margin-bottom: 1em;
+
+  .card-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+  }
+
+  .card-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    }
+
+  .card-action {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+  }
+}
+
+.cards-container .col {
+  &:nth-child(1) .card { background-color: darken(#ef6c00, 5); }
+  &:nth-child(2) .card { @extend .blue; @extend .darken-3;}
+  &:nth-child(3) .card { background-color: $purple; }
+  &:last-child .card { @extend .light-green; @extend .darken-3; }
+}

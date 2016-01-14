@@ -1,0 +1,124 @@
+$section-bgcolor: whitesmoke;
+$section-textcolor: #00575A;
+$section-headingcolor: $section-textcolor;
+
+$vision-background: #bb4a40;
+$vision-textcolor: #ebe2d5;
+
+@mixin section-color($textcolor,$background){
+  background-color: $background;
+  .strike span { background-color: $background; }
+  color: $textcolor;
+  .strike {
+    color: $textcolor;
+    &:before {
+      border-color: $textcolor;
+    }
+  }
+  h4 {
+    border-color: $textcolor;
+    color: $textcolor;
+  }
+}
+
+section#our-vision {
+  @include section-color($vision-textcolor,$vision-background);
+}
+
+.section {
+  background-color: $section-bgcolor;
+  margin: auto;
+  color: $section-textcolor;
+
+  p {
+    font: 400 16px/24px "Open Sans", sans-serif;
+    margin-bottom: 2em;
+  }
+}
+
+.strike {
+    color: $section-headingcolor;
+    display: block;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+
+  h2 {
+    font-family: "Roboto Slab",sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    color: inherit;
+    text-transform: uppercase;
+  }
+
+  &:before {
+      border-top: 2px solid $section-headingcolor;
+      content: "";
+      position: absolute;
+      top: 1em;
+      left: 0;
+      width: 100%;
+      z-index: -1;
+    }
+
+    span {
+      background: $section-bgcolor;
+      padding: 0 20px;
+    }
+}
+
+.youtube-video {
+  text-align: center;
+  margin: 1em auto;
+}
+
+.small-video-container {
+
+  .small-video {
+    @extend .col;
+
+    h4 {
+      font-size: 1.2em;
+      margin: 0.5em;
+      padding: 0.7em 0;
+      font-family: "Roboto Slab", serif;
+      text-align: center;
+      color: $section-headingcolor;
+      border-top: 2px solid $section-headingcolor;
+      border-bottom: 2px solid $section-headingcolor;
+    }
+
+    &:first-child {
+      @extend .s3;
+      @extend .offset-s2;
+      text-align: left;
+    }
+
+    &:nth-child(2) {
+      @extend .s2;
+      text-align: center;
+    }
+
+    &:last-child {
+      @extend .s3;
+      text-align: right;
+    }
+  }
+}
+
+blockquote {
+  font: 400 1em/1.2em "Gentium Basic", serif;
+  margin: 0;
+  margin-left: 1.5em;
+  font-style: italic;
+  float: right;
+  width: 30%;
+  border: none;
+  .author {
+    float: right;
+    line-height: 1.8em;
+    font-style: normal;
+    display: inline-block;
+    &:before { content: "- "; }
+  }
+}

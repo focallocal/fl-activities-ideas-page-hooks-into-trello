@@ -1,0 +1,60 @@
+//$events-color: #c6ff00;
+//$about-color: #00bcd4;
+
+@import "reset";
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400);
+@import "materialize/materialize";
+@import "colors";
+@import "cards";
+@import "sections";
+$card-link-color: blue; //color("light-blue", "darken-1") !default;
+
+$events-color: white;
+$about-color: white;
+
+/* site backgorund */
+
+html, body {
+  height: 100%;
+  background-image: url(../images/patterns/symphony.png);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
+
+.background-holder {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  #left, #right {  height: 100%; }
+}
+
+/* Header */
+img.logo {
+  display: block;
+  margin: auto;
+  width: 250px;
+  z-index: -1;
+  transform:scale(0.8);
+}
+
+/* background image */
+img.background-bottom {
+  display: block;
+  margin: auto;
+  z-index: -11;
+  width: 100%;
+  margin-top: -20%;
+}
+
+/* effects */
+.card {
+  border-radius: 10px;
+  &:hover {
+    @extend .z-depth-3;
+  }
+  min-height: 200px;
+background-image: url(../images/patterns/crossword-transparent.png);
+}

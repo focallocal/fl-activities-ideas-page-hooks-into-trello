@@ -1,0 +1,14 @@
+.strike {
+  text-align: center;
+  white-space: nowrap;
+  color: #FFF; }
+  .strike span::before {
+    right: 100%;
+    margin-right: 15px; }
+  .strike span::before, .strike span::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: #FFF none repeat scroll 0% 0%; }

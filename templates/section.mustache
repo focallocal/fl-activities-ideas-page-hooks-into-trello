@@ -1,0 +1,43 @@
+<section id="{{id}}" class="section">
+  <div class="row">
+    <a name="{{id}}"></a>
+    <div class="col s8 offset-s2">
+      {{#title}}
+        <div class="strike">
+          <h2><span>{{title}}</span></h2>
+        </div>
+      {{/title}}
+
+      {{#quote}}
+        {{> quote}}
+      {{/quote}}
+
+      <p>{{content}}<p>
+
+      <div class="cards-container">
+        <div class="row">
+          {{#cards}}
+            <div class="col">{{> card }}</div>
+          {{/cards}}
+        </div>
+      </div>
+
+
+      {{#bigVideo}}
+      <p class="youtube-video">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{youtubeId}}" frameborder="0" allowfullscreen></iframe>
+      </p>
+      {{/bigVideo}}
+    </div>
+
+
+    <div class="row small-video-container">
+    {{#videos}}
+        <div class="small-video">
+          <h4>{{title}}</h4>
+          <iframe width="100%" height="200" src="https://www.youtube.com/embed/{{youtubeId}}" frameborder="0" allowfullscreen></iframe>
+        </div>
+    {{/videos}}
+    </div>
+
+</section>
