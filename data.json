@@ -1,90 +1,89 @@
 {
-"sections": [
-  {
-    "id": "our-vision",
-    "title": "Our Vision",
-    "content": "We believe the purpose of being alive is being loving and happy. The world is a loving place and we remind the people around us of that. We encourage everyone to pass on the joy: A smile goes a long way =)",
-    "bigVideo": {
-      "youtubeId": "tG4l514O0t4"
+  "sections": [
+    {
+      "id": "our-vision",
+      "title": "Our Vision",
+      "content": "The Focallocal Community is an international collective of pro-active people, together exploring creative and fun activities to make the World around us a friendlier, happier and safer place.</p><p>We live in a time where more and more people feel a responsibility to change the the many societal ills we've inherited, and are increasingly frustrated by our lack of power to affect these issues  ..we all want to be a part of creating positive change, but knowing where to start is difficult, and modern lives can be so busy that many of us worry about being able to commit to a regular role helping a good cause.</p><p>Our Positive Action Community changes it all! The Focallocal Community is built around the principles that lasting change is best achieved when it is:</p><p><ol><li>Created by local people</li><li>Achieved using positivity and positive actions</li><li>Incremental - built from many small actions</li><li>Most importantly, Simple, Easy, Social, and FUN!</li></ol>",
+      "bigVideo": {
+        "youtubeId": ""
+      },
+      "quote": {
+        "quote": "Be the Change you want to see in the World.",
+        "author": "Ghandi"
+      }
     },
-    "quote": {
-      "quote": "Be the Change you want to see in the World.",
-      "author": "Ghandi"
-    },
-    "videos": [
-      { "title": "How to Change the World with Positive Social Action",
-        "youtubeId": "zGMnlwSnjQw" },
-      { "title": "The Surprising Science of Happiness",
-        "youtubeId": "4q1dgn_C0AU" },
-      { "title": "The Surprising Science of Happiness",
-        "youtubeId": "4q1dgn_C0AU" }
-    ]
-  },{
-    "id": "what-we-do",
-    "title": "What We Do",
-    "content": "We focus on little activities that everyone can easily do in their community or neighborhood. We show you how you can bring the people around you together and spread a positive vibe. Through little acts of kindness we are planting seeds for the happy world we all want to live in.",
-    "quote": {
+    {
+      "id": "what-we-do",
+      "title": "What We Do",
+      "cards": [
+        {
+          "id": "what-activities",
+          "title": "Activities",
+          "description": "We invite positive, friendly and pro-active Focallocaller anywhere in the World to meet you and create Positive Action together. Meet other people who want to make World a better place and have fun doing it!",
+          "video": {
+            "youtubeId": "n1LGKGdAGRw"
+          }
+        },
+        {
+          "id": "what-action-days",
+          "lastInRow": true,
+          "title": "International Action Days",
+          "description": "Join thousands of others in cities all across the World, creating buttlerfly effects of positive energy all across our planet. Let's celebrate the joy of being alive together!",
+          "video": {
+            "youtubeId": "R47NcmfPPYg"
+          }
+        },
+        {
+          "id": "what-projects",
+          "title": "Projects",
+          "description": "Text about projects Text about projects Text about projects Text about projects Text about projects Text about projects Text about projects Text about projects Text about projects",
+          "video": {
+            "youtubeId": "R47NcmfPPYg"
+          }
+        },
+        {
+          "id": "what-psychology",
+          "lastInRow": true,
+          "title": "Happiness Challenges",
+          "description": "To change the world around you, you first have to change the World within you. One task every day for 30 days is usually enough to form a long term habit which will increase your mental health and happiness.",
+          "video": {
+            "youtubeId": "R47NcmfPPYg"
+          }
+        }
+      ]
 
-      "quote": "The best way to cheer yourself up is to try to cheer somebody else up.",
-      "author": "Mark Twain"
     },
-    "cards": [
-      {
-        "id": "what-activities",
-        "title": "Activities",
-        "description": "We invite positive, friendly and pro-active Focallocaller anywhere in the World to meet you and create Positive Action together. Meet other people who want to make World a better place and have fun doing it!",
-        "actions":[
-                  {"title": "find an activity near you","url": "#"},
-                  {"title": "create an activity", "url": "#"}
-                ]
-      },{
-        "id": "what-action-days",
-        "lastInRow": true,
-        "title": "Positive Action Days",
-        "description": "Join thousands of others in cities all across the World, creating buttlerfly effects of positive energy all across our planet. Let's celebrate the joy of being alive together!",
-        "actions":[
-                  {"title": "Next International Action Day","url": "#"}
-                ]
-      },{
-        "id": "what-projects",
-        "title": "Projects",
-        "description": "Text about projects Text about projects Text about projects Text about projects Text about projects Text about projects Text about projects Text about projects Text about projects",
-        "actions":[
-                  {"title": "action 1","url": "#"},
-                  {"title": "action 2", "url": "#"}
-                ]
-      },{
-        "id": "what-psychology",
-        "lastInRow": true,
-        "title": "Positive Psychology",
-        "description": "To change the world around you, you first have to change the World within you. One task every day for 30 days is usually enough to form a long term habit which will increase your mental health and happiness.",
-        "actions":[
-                  {"title": "How to obtain a happier attitude","url": "#"},
-                  {"title": "Get happiness from inside", "url": "#"}
-                ]
-      }],
-    "bigVideo": {
-      "youtubeId": "kr7zZkp_IK0"
+    {
+      "id": "member-area",
+      "title": "What You Can Do",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.",
+      "quote": {
+        "quote": "The best way to cheer yourself up is to try to cheer somebody else up.",
+        "author": "Mark Twain"
+      },
+      "cards": [
+        {
+          "id": "action-center",
+          "title": "Action Center"
+        },
+        {
+          "id": "community-news",
+          "title": "Community News"
+        },
+        {
+          "id": "activities",
+          "title": "Our Activities"
+        },
+        {
+          "id": "gatherings",
+          "title": "Gatherings Map"
+        }
+      ]
     },
-    "videos": [
-      { "title": "Giving Bubbles",    "youtubeId": "n1LGKGdAGRw" },
-      { "title": "Pillow Fights",     "youtubeId": "a5pULjDKeZQ" },
-      { "title": "Connecting Canvas", "youtubeId": "RxnkdsWTNFI" }
-    ]
-  },{
-    "id": "why-it-works",
-    "title": "Why It Works",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est."
-  },{
-    "id": "member-area",
-    "title": "Member Area",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.",
-    "cards": [
-              {"id":"action-center","title":"Action Center"},
-              {"id":"community-news","title":"Community News"},
-              {"id":"activities","title":"Our Activities"},
-              {"id":"gatherings","title":"Gatherings Map"}
-            ]
-  }
-]
+    {
+      "id": "why-it-works",
+      "title": "Why It Works",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est."
+    }
+  ]
 }

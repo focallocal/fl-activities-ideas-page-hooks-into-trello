@@ -1,13 +1,14 @@
 var gulp = require("gulp");
 var mustache = require("gulp-mustache");
 var sass = require('gulp-sass');
+var gutil = require('gulp-util');
 
 gulp.task('default', ['compile','sass']);
 gulp.task('watch', ['sass:watch','mustache:watch']);
 
 gulp.task('compile', function() {
   gulp.src("./templates/front-page.html")
-  	.pipe(mustache("data.json"))
+  	.pipe(mustache("data.json").on('error',gutil.log,{showStack:true}))
   	.pipe(gulp.dest("./"));
 });
 

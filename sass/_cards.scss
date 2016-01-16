@@ -3,7 +3,8 @@
 
   .col {
     @extend .l6;
-    @extend .m6;
+    @extend .m12;
+    @extend .s12;
 
     &:first-child {
       //@extend .offset-l1;
@@ -26,6 +27,16 @@
 .card {
   //@extend .card;
   margin-bottom: 1em;
+  /* effects */
+  border-radius: 10px;
+  min-height: 200px;
+  background-image: url(../images/patterns/crossword-transparent.png);
+
+  &:hover { @extend .z-depth-3; }
+  .card-image {
+    border-radius: 10px;
+    .youtube-video { margin: 0; padding: 0; }
+  }
 
   .card-title {
     font-family: 'Roboto Slab', serif;

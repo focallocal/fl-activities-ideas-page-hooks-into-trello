@@ -7,8 +7,8 @@ $vision-textcolor: #ebe2d5;
 
 @mixin section-color($textcolor,$background){
   background-color: $background;
-  .strike span { background-color: $background; }
   color: $textcolor;
+  .strike span { background-color: $background; }
   .strike {
     color: $textcolor;
     &:before {
@@ -22,17 +22,21 @@ $vision-textcolor: #ebe2d5;
 }
 
 section#our-vision {
-  @include section-color($vision-textcolor,$vision-background);
+  @include section-color("inherit","blue");
 }
 
 .section {
-  background-color: $section-bgcolor;
+  //background-color: $section-bgcolor;
   margin: auto;
   color: $section-textcolor;
 
   p {
-    font: 400 16px/24px "Open Sans", sans-serif;
+    font: 400  1em/1em "Open Sans", sans-serif;
     margin-bottom: 2em;
+  }
+
+  ol {
+    list-style: inside decimal;
   }
 }
 

@@ -17,6 +17,7 @@ $about-color: white;
 /* site backgorund */
 
 html, body {
+  font-size: 16px;
   height: 100%;
   background-image: url(../images/patterns/symphony.png);
   -webkit-transform-style: preserve-3d;
@@ -37,24 +38,14 @@ img.logo {
   margin: auto;
   width: 250px;
   z-index: -1;
-  transform:scale(0.8);
+  margin-top: 2em;
 }
 
 /* background image */
-img.background-bottom {
-  display: block;
-  margin: auto;
-  z-index: -11;
+.background-bottom {
+  height: 300px;
   width: 100%;
-  margin-top: -20%;
-}
-
-/* effects */
-.card {
-  border-radius: 10px;
-  &:hover {
-    @extend .z-depth-3;
-  }
-  min-height: 200px;
-background-image: url(../images/patterns/crossword-transparent.png);
+  background: url(../images/earth-2.png) no-repeat;
+  background-position: center top;
+  background-size: cover;
 }

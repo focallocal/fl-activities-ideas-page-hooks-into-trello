@@ -1,14 +1,21 @@
 <!-- start card -->
 <article class="card" id="{{id}}">
+  <div class="card-image waves-effect waves-block waves-light">
+      {{#video}}
+        <iframe class="youtube-video" width="100%" height="315" src="https://www.youtube.com/embed/{{youtubeId}}" frameborder="0" allowfullscreen></iframe>
+      {{/video}}
+  </div>
   <div class="card-content">
     <span class="card-title">{{title}}</span>
     <p>{{description}}</p>
   </div>
 
+  {{^video}}
   <div class="card-action">
     {{#actions}}
       <a href="{{{url}}}">{{title}}</a>
     {{/actions}}
   </div>
+  {{/video}}
 </article>
 <!-- end card -->

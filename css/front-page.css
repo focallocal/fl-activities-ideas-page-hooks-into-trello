@@ -5177,7 +5177,7 @@ span.badge {
     .row .col.s11, .row .small-video-container .s11.small-video, .small-video-container .row .s11.small-video {
       width: 91.66667%;
       margin-left: 0; }
-    .row .col.s12, .row .small-video-container .s12.small-video, .small-video-container .row .s12.small-video {
+    .row .col.s12, .row .cards-container .col, .cards-container .row .col, .row .cards-container .small-video-container .small-video, .cards-container .small-video-container .row .small-video, .row .small-video-container .cards-container .small-video, .small-video-container .cards-container .row .small-video, .row .small-video-container .s12.small-video, .small-video-container .row .s12.small-video {
       width: 100%;
       margin-left: 0; }
     .row .col.offset-s1, .row .small-video-container .offset-s1.small-video, .small-video-container .row .offset-s1.small-video {
@@ -5220,7 +5220,7 @@ span.badge {
       .row .col.m5, .row .small-video-container .m5.small-video, .small-video-container .row .m5.small-video {
         width: 41.66667%;
         margin-left: 0; }
-      .row .col.m6, .row .cards-container .col, .cards-container .row .col, .row .cards-container .small-video-container .small-video, .cards-container .small-video-container .row .small-video, .row .small-video-container .cards-container .small-video, .small-video-container .cards-container .row .small-video, .row .small-video-container .m6.small-video, .small-video-container .row .m6.small-video {
+      .row .col.m6, .row .small-video-container .m6.small-video, .small-video-container .row .m6.small-video {
         width: 50%;
         margin-left: 0; }
       .row .col.m7, .row .small-video-container .m7.small-video, .small-video-container .row .m7.small-video {
@@ -5238,7 +5238,7 @@ span.badge {
       .row .col.m11, .row .small-video-container .m11.small-video, .small-video-container .row .m11.small-video {
         width: 91.66667%;
         margin-left: 0; }
-      .row .col.m12, .row .small-video-container .m12.small-video, .small-video-container .row .m12.small-video {
+      .row .col.m12, .row .cards-container .col, .cards-container .row .col, .row .cards-container .small-video-container .small-video, .cards-container .small-video-container .row .small-video, .row .small-video-container .cards-container .small-video, .small-video-container .cards-container .row .small-video, .row .small-video-container .m12.small-video, .small-video-container .row .m12.small-video {
         width: 100%;
         margin-left: 0; }
       .row .col.offset-m1, .row .small-video-container .offset-m1.small-video, .small-video-container .row .offset-m1.small-video {
@@ -8405,7 +8405,16 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-size: 1em; }
 
 .card {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  /* effects */
+  border-radius: 10px;
+  min-height: 200px;
+  background-image: url(../images/patterns/crossword-transparent.png); }
+  .card .card-image {
+    border-radius: 10px; }
+    .card .card-image .youtube-video {
+      margin: 0;
+      padding: 0; }
   .card .card-title {
     font-family: 'Roboto Slab', serif;
     font-weight: 700; }
@@ -8423,25 +8432,26 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   background-color: #9c27b0; }
 
 section#our-vision {
-  background-color: #bb4a40;
-  color: #ebe2d5; }
+  background-color: "blue";
+  color: "inherit"; }
   section#our-vision .strike span {
-    background-color: #bb4a40; }
+    background-color: "blue"; }
   section#our-vision .strike {
-    color: #ebe2d5; }
+    color: "inherit"; }
     section#our-vision .strike:before {
-      border-color: #ebe2d5; }
+      border-color: "inherit"; }
   section#our-vision h4 {
-    border-color: #ebe2d5;
-    color: #ebe2d5; }
+    border-color: "inherit";
+    color: "inherit"; }
 
 .section {
-  background-color: whitesmoke;
   margin: auto;
   color: #00575A; }
   .section p {
-    font: 400 16px/24px "Open Sans", sans-serif;
+    font: 400  1em/1em "Open Sans", sans-serif;
     margin-bottom: 2em; }
+  .section ol {
+    list-style: inside decimal; }
 
 .strike {
   color: #00575A;
@@ -8508,6 +8518,7 @@ blockquote {
 
 /* site backgorund */
 html, body {
+  font-size: 16px;
   height: 100%;
   background-image: url(../images/patterns/symphony.png);
   -webkit-transform-style: preserve-3d;
@@ -8527,18 +8538,12 @@ img.logo {
   margin: auto;
   width: 250px;
   z-index: -1;
-  transform: scale(0.8); }
+  margin-top: 2em; }
 
 /* background image */
-img.background-bottom {
-  display: block;
-  margin: auto;
-  z-index: -11;
+.background-bottom {
+  height: 300px;
   width: 100%;
-  margin-top: -20%; }
-
-/* effects */
-.card {
-  border-radius: 10px;
-  min-height: 200px;
-  background-image: url(../images/patterns/crossword-transparent.png); }
+  background: url(../images/earth-2.png) no-repeat;
+  background-position: center top;
+  background-size: cover; }
