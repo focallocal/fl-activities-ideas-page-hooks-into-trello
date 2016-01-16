@@ -2,13 +2,12 @@
 //$about-color: #00bcd4;
 
 @import "reset";
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:800);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
-@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400);
 @import "materialize/materialize";
 @import "colors";
 @import "cards";
 @import "sections";
+@import "fl-menu";
+@import "typography";
 $card-link-color: blue; //color("light-blue", "darken-1") !default;
 
 $events-color: white;

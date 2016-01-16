@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,500,700);
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400);
+
+.section {
+  font: normal 1em/1.2em "Roboto", sans-serif;
+
+  h2 {
+    font: bolder 2em/1em "Roboto Slab",sans-serif;
+    text-transform: uppercase;
+  }
+
+}
+
+.small-video h4 {
+  font: bolder 1.2em/1.2em "Roboto Slab", serif;
+}
+
+blockquote {
+  font: italic 400 1em/1.2em "Gentium Basic", serif;
+
+  .author {
+    line-height: 1.8em;
+    font-style: normal;
+  }
+}
+
+.card {
+
+  .card-content .card-title {
+    font: bolder 1.4em/1.2em 'Roboto Slab', serif;
+  }
+
+  .card-content {
+    font: lighter 1em/1.2em 'Roboto', sans-serif;
+    }
+
+  .card-action {
+    font-weight: bold;
+  }
+}

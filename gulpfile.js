@@ -1,6 +1,7 @@
 var gulp = require("gulp");
 var mustache = require("gulp-mustache");
 var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
 var gutil = require('gulp-util');
 
 gulp.task('default', ['compile','sass']);
@@ -20,7 +21,9 @@ gulp.task('mustache:watch',function() {
 
 gulp.task('sass', function () {
   gulp.src('./sass/*.scss')
+    .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest('./css'));
 });
 

@@ -21,17 +21,15 @@ $vision-textcolor: #ebe2d5;
   }
 }
 
-section#our-vision {
-  @include section-color("inherit","blue");
-}
+//#our-vision { @include section-color(#333, #69D2E7); }
+//#what-we-do { @include section-color(inherit,#FFFCD9);}
 
 .section {
   //background-color: $section-bgcolor;
   margin: auto;
   color: $section-textcolor;
 
-  p {
-    font: 400  1em/1em "Open Sans", sans-serif;
+  p, ol {
     margin-bottom: 2em;
   }
 
@@ -48,11 +46,7 @@ section#our-vision {
     z-index: 1;
 
   h2 {
-    font-family: "Roboto Slab",sans-serif;
-    font-weight: 800;
-    font-size: 2em;
     color: inherit;
-    text-transform: uppercase;
   }
 
   &:before {
@@ -82,10 +76,8 @@ section#our-vision {
     @extend .col;
 
     h4 {
-      font-size: 1.2em;
       margin: 0.5em;
       padding: 0.7em 0;
-      font-family: "Roboto Slab", serif;
       text-align: center;
       color: $section-headingcolor;
       border-top: 2px solid $section-headingcolor;
@@ -111,17 +103,13 @@ section#our-vision {
 }
 
 blockquote {
-  font: 400 1em/1.2em "Gentium Basic", serif;
   margin: 0;
   margin-left: 1.5em;
-  font-style: italic;
   float: right;
   width: 30%;
   border: none;
   .author {
     float: right;
-    line-height: 1.8em;
-    font-style: normal;
     display: inline-block;
     &:before { content: "- "; }
   }

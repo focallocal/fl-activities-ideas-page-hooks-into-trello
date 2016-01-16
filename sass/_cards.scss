@@ -34,23 +34,19 @@
 
   &:hover { @extend .z-depth-3; }
   .card-image {
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     .youtube-video { margin: 0; padding: 0; }
   }
 
-  .card-title {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 700;
+  .card-content .card-title {
+    margin-bottom: 1em;
   }
 
   .card-content p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    padding-top: 0.5em;
     }
 
   .card-action {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
   }
 }
 
