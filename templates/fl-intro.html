@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Focallocal - Intro</title>
+  <link rel="stylesheet" type="text/css" media="all" href="assets/css/front-page.css" />
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/js/materialize.min.js"></script>
+</head>
+<body>
+  {{> fl-menu}}
+  <header>
+    <div class="row">
+      <div class="col s12 l12 m12">
+        <img src="assets/images/focallocal-logo.png" class="logo">
+      </div>
+    </div>
+  </header>
+
+  {{#sections}}
+    <div class="sections-container">
+        {{> section}}
+    </div>
+  {{/sections}}
+
+  <div class="background-bottom"></div>
+</body>
+</html>

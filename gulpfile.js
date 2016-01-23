@@ -8,7 +8,7 @@ gulp.task('default', ['compile','sass']);
 gulp.task('watch', ['sass:watch','mustache:watch']);
 
 gulp.task('compile', function() {
-  gulp.src("./templates/front-page.html")
+  gulp.src("./templates/fl-intro.html")
   	.pipe(mustache("data.json").on('error',gutil.log,{showStack:true}))
   	.pipe(gulp.dest("./"));
 });
@@ -24,7 +24,7 @@ gulp.task('sass', function () {
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./assets/css'));
 });
 
 gulp.task('sass:watch', function () {
