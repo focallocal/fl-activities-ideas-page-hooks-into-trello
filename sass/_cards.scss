@@ -54,5 +54,6 @@
   &:nth-child(1) .card { background-color: darken(#ef6c00, 5); }
   &:nth-child(2) .card { @extend .blue; @extend .darken-3;}
   &:nth-child(3) .card { background-color: $purple; }
+  &:nth-child(4) .card { background-color: darken(#ef6c00, 5); }
   &:last-child .card { @extend .light-green; @extend .darken-3; }
 }
